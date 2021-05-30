@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "name": "Категорія A",
-    "shortname": "Cat1",
+    "name": "Випічка",
+    "shortname": "Bread",
     "url": "categories/Cat1.json",
     "special_instruction":"Special instruction is special",
     "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
   },
   {
     "id": 2,
-    "name": "Категорія Б",
-    "shortname": "Cat2",
+    "name": "М'ясні вироби",
+    "shortname": "Meat",
     "url": "categories/Cat2.json",
     "special_instruction":null,
     "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
   },
   {
     "id": 3,
-    "name": "Категорія В",
-    "shortname": "Cat3",
+    "name": "Снеки",
+    "shortname": "Snacks",
     "url": "categories/Cat1.json",
     "special_instruction":null,
     "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
   },
   {
     "id": 4,
-    "name": "Категорія Г",
-    "shortname": "Cat4",
+    "name": "Овочі",
+    "shortname": "Vegetables",
     "url": "categories/Cat4.json",
     "special_instruction":null,
     "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"

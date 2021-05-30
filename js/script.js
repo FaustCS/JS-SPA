@@ -11,7 +11,15 @@
 	var catalogItemsTitleHtml = "snippets/catalog-item-title.html";
 	var catalogItemsHtml = "snippets/catalog-item.html";
 
+
 	projectClass.nameOfUser = "";
+	projectClass.nameOfSite = "ПродуктЇ";
+
+	projectClass.getUserName = function(){
+		nameOfUser = document.querySelector("#nameInput").value;
+		if(nameOfUser.length > 0)alert("Дякую за вашу увагу, " + nameOfUser);
+		else alert("Ви не увели ім'я, спробуйте ще раз");
+	}
 
 	var insertHtml = function(selector, html){
 		var inner = document.querySelector(selector);
@@ -28,7 +36,7 @@
 
 	var showLoading = function(selector){
 		var html = '<div class="text-center">';
-		html += '<img class="d-block m-auto col-md-6 col-12" src="images/gif_load.gif" alt="loading"></div>';
+		html += '<img class="d-block m-auto" src="images/gif_load.gif" alt="loading"></div>';
 		insertHtml(selector, html);
 	};
 
@@ -42,6 +50,8 @@
 			homeFooterHtml, function(responseText){
 				insertHtml("#footer-content", responseText);
 			}, false);
+		insertHtml('#brand-name', projectClass.nameOfSite);
+		document.title = projectClass.nameOfSite;
 	});
 
 	var loadCatalogItems = function(categoryShort){
