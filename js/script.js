@@ -1,5 +1,5 @@
 (function(global){
-	var mySite = {};
+	var projectClass = {};
 	
 	var homeHtml = "snippets/home-snippet.html";
 	var homeFooterHtml = "snippets/footer-snippet.html";
@@ -10,6 +10,8 @@
 	var catalogItemsUrl = "categories/";
 	var catalogItemsTitleHtml = "snippets/catalog-item-title.html";
 	var catalogItemsHtml = "snippets/catalog-item.html";
+
+	projectClass.nameOfUser = "";
 
 	var insertHtml = function(selector, html){
 		var inner = document.querySelector(selector);
@@ -22,7 +24,7 @@
 		return string;
 	};
 
-	mySite.insertHtml = insertHtml;
+	projectClass.insertHtml = insertHtml;
 
 	var showLoading = function(selector){
 		var html = '<div class="text-center">';
@@ -56,21 +58,21 @@
 		}
 	}
 
-	mySite.loadCatalogItems = loadCatalogItems;
+	projectClass.loadCatalogItems = loadCatalogItems;
 
 	var loadCatalogCategories = function(){
 		showLoading("#main-content");		
 		$ajaxUtil.sendGetRequest(allCategoriesUrl, buildAndShowCategoriesHTML);		
 	};
 
-	mySite.loadHome = function(){
+	projectClass.loadHome = function(){
 		showLoading("#main-content");
 		$ajaxUtil.sendGetRequest(
 			homeHtml, function(responseText){
 				insertHtml("#main-content", responseText);
 			}, false);
 	};
-	mySite.loadCatalogCategories = loadCatalogCategories;	
+	projectClass.loadCatalogCategories = loadCatalogCategories;	
 	function buildAndShowCategoriesHTML(categories){
 		$ajaxUtil.sendGetRequest(categoriesTitleHtml, 
 			function(categoriesTitleHtml){
@@ -145,9 +147,9 @@
 		return (Math.round(Math.random()*(max-1)));		
 	};
 
-	mySite.getRandom = getRandom;
+	projectClass.getRandom = getRandom;
 
-	global.$mySite = mySite;
+	global.$projectClass = projectClass;
 })(window);
 
-//window.$mySite.insertHtml(".navbar-brand", '<h2>Logo</h2>');
+//window.$projectClass.insertHtml(".navbar-brand", '<h2>Logo</h2>');
