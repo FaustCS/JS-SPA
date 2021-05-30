@@ -1,0 +1,65 @@
+{"catalog_items":[
+	{
+		"id":1,
+		"shortname":"Б1",
+		"name":"Назва Б-1",
+		"description":"Some text for description",
+		"price":33.2,
+		"ammount_retail":5
+	},
+	{
+		"id":2,
+		"shortname":"Б2",
+		"name":"Назва Б-2",
+		"description":"Some text for description",
+		"price":99.9,
+		"ammount_retail":3
+	},
+	{
+		"id":3,
+		"shortname":"Б3",
+		"name":"Назва Б-3",
+		"description":"Some text for description",
+		"price":60.5,
+		"ammount_retail":10
+	},
+	{
+		"id":4,
+		"shortname":"Б4",
+		"name":"Назва Б-4",
+		"description":"Some text for description",
+		"price":22,
+		"ammount_retail":55
+	},
+	{
+		"id":5,
+		"shortname":"Б5",
+		"name":"Назва Б-5",
+		"description":"Some text for description",
+		"price":40.4,
+		"ammount_retail":null
+	},
+	{
+		"id":6,
+		"shortname":"Б6",
+		"name":"Назва Б-6",
+		"description":"Some text for description",
+		"price":66.6,
+		"ammount_retail":null
+	},
+	{
+		"id":7,
+		"shortname":"Б7",
+		"name":"Назва Б-7",
+		"description":"Some text for description",
+		"price":87.2,
+		"ammount_retail":null
+	}	
+],
+	"category":
+	{
+		"shortname":"Б",
+		"name":"Категорія Б",
+		"special_instruction":"-"
+	}
+}

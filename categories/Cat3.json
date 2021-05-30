@@ -1,0 +1,73 @@
+{"catalog_items":[
+	{
+		"id":1,
+		"shortname":"В1",
+		"name":"Назва В-1",
+		"description":"Some text for description",
+		"price":33.2,
+		"ammount_retail":5
+	},
+	{
+		"id":2,
+		"shortname":"В2",
+		"name":"Назва В-2",
+		"description":"Some text for description",
+		"price":99.9,
+		"ammount_retail":3
+	},
+	{
+		"id":3,
+		"shortname":"В3",
+		"name":"Назва В-3",
+		"description":"Some text for description",
+		"price":60.5,
+		"ammount_retail":10
+	},
+	{
+		"id":4,
+		"shortname":"В4",
+		"name":"Назва В-4",
+		"description":"Some text for description",
+		"price":22,
+		"ammount_retail":55
+	},
+	{
+		"id":5,
+		"shortname":"В5",
+		"name":"Назва В-5",
+		"description":"Some text for description",
+		"price":40.4,
+		"ammount_retail":null
+	},
+	{
+		"id":6,
+		"shortname":"В6",
+		"name":"Назва В-6",
+		"description":"Some text for description",
+		"price":66.6,
+		"ammount_retail":null
+	},
+	{
+		"id":7,
+		"shortname":"В7",
+		"name":"Назва В-7",
+		"description":"Some text for description",
+		"price":87.2,
+		"ammount_retail":null
+	},
+	{
+		"id":8,
+		"shortname":"В8",
+		"name":"Назва В-8",
+		"description":"Some text for description",
+		"price":42,
+		"ammount_retail":null
+	}
+],
+	"category":
+	{
+		"shortname":"В",
+		"name":"Категорія В",
+		"special_instruction":"-"
+	}
+}
