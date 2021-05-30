@@ -2,6 +2,7 @@
 	var mySite = {};
 	
 	var homeHtml = "snippets/home-snippet.html";
+	var homeFooterHtml = "snippets/footer-snippet.html";
 	var allCategoriesUrl = "data/categories.json";
 	var ammountOfCategories = 0;
 	var categoriesTitleHtml = "snippets/category-title-snippet.html";
@@ -35,6 +36,10 @@
 			homeHtml, function(responseText){
 				insertHtml("#main-content", responseText);
 			}, false);
+		$ajaxUtil.sendGetRequest(
+			homeFooterHtml, function(responseText){
+				insertHtml("#footer-content", responseText);
+			}, false);
 	});
 
 	var loadCatalogItems = function(categoryShort){
@@ -58,15 +63,14 @@
 		$ajaxUtil.sendGetRequest(allCategoriesUrl, buildAndShowCategoriesHTML);		
 	};
 
-	var loadHome = function(){
+	mySite.loadHome = function(){
 		showLoading("#main-content");
 		$ajaxUtil.sendGetRequest(
 			homeHtml, function(responseText){
 				insertHtml("#main-content", responseText);
 			}, false);
 	};
-	mySite.loadCatalogCategories = loadCatalogCategories;
-	mySite.loadHome = loadHome;
+	mySite.loadCatalogCategories = loadCatalogCategories;	
 	function buildAndShowCategoriesHTML(categories){
 		$ajaxUtil.sendGetRequest(categoriesTitleHtml, 
 			function(categoriesTitleHtml){
@@ -137,7 +141,7 @@
 		return finalHtml;
 	}
 
-	var getRandom = function(max){//x = {x є N && x <= max}
+	var getRandom = function(max){//x = {x є N && x < max}
 		return (Math.round(Math.random()*(max-1)));		
 	};
 
