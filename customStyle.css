@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap');
+
+*{
+	font-family: 'Podkova', cursive;
+}
+body{
+	background: #FDAF8A;	
+}
+.custom-color{
+	color: #000!important;
+	background: #CB6688;
+	border-color: #755A83!important;
+}
+.custom-color-inverse{
+	color: #fff!important;
+	background: #265E84;
+	border-color: #755A83!important;
+}
+.text-justify{
+	text-align: justify;
+}
+.custom-menu-item:hover{
+	background-color:  #727700!important;
+}
+.color-pallete{
+	height:2.0rem;
+}

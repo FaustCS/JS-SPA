@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Категорія A",
+    "shortname": "Cat1",
+    "url": "categories/cat1.json",
+    "special_instruction":"Special instruction is special",
+    "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
+  },
+  {
+    "id": 2,
+    "name": "Категорія Б",
+    "shortname": "Cat1",
+    "url": "categories/cat1.json",
+    "special_instruction":null,
+    "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
+  },
+  {
+    "id": 3,
+    "name": "Категорія В",
+    "shortname": "Cat1",
+    "url": "categories/cat1.json",
+    "special_instruction":null,
+    "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
+  },
+  {
+    "id": 4,
+    "name": "Категорія Г",
+    "shortname": "Cat1",
+    "url": "categories/cat1.json",
+    "special_instruction":null,
+    "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
+  }
+]

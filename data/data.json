@@ -1,0 +1,17 @@
+{"peoples":[
+	{
+		"name":"Maksym",
+		"age":23,
+		"sex":"Male"
+	},
+	{
+		"name":"Wowa",
+		"age":21,
+		"sex":"Male"
+	},
+	{
+		"name":"Vera",
+		"age":16,
+		"sex":"Female"
+	}
+]}
