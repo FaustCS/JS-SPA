@@ -4,7 +4,7 @@
             "shortname": "chips",
             "name": "Хрустка картопля",
             "description": "Some text for description",
-            "price": 33.2,
+            "price": 32,
             "ammount_retail": 5
         },
         {
@@ -12,7 +12,7 @@
             "shortname": "cracker",
             "name": "Крекери",
             "description": "Some text for description",
-            "price": 99.9,
+            "price": 18,
             "ammount_retail": 3
         },
         {
@@ -20,7 +20,7 @@
             "shortname": "driedbread",
             "name": "Грінки",
             "description": "Some text for description",
-            "price": 60.5,
+            "price": 14.6,
             "ammount_retail": 10
         },
         {
@@ -28,7 +28,7 @@
             "shortname": "popcorn",
             "name": "Попкорн солений",
             "description": "Some text for description",
-            "price": 22,
+            "price": 18.5,
             "ammount_retail": 55
         }
     ],
