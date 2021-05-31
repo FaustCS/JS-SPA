@@ -21,7 +21,7 @@
     "shortname": "Snacks",
     "url": "categories/Snacks.json",
     "special_instruction":null,
-    "notes": ""
+    "notes": "Закуски довготривалого зберігання"
   },
   {
     "id": 4,
@@ -29,6 +29,15 @@
     "shortname": "Vegetables",
     "url": "categories/Vegetables.json",
     "special_instruction":null,
-    "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "name": "",
+    "shortname": "Vegetables",
+    "url": "categories/Vegetables.json",
+    "special_instruction":null,
+    "notes": ""
   }
+
 ]

@@ -4,6 +4,7 @@
 	var homeHtml = "snippets/home-snippet.html";
 	var homeFooterHtml = "snippets/footer-snippet.html";
 	var allCategoriesUrl = "data/categories.json";
+	var allSlidersUrl = "data/slider.json";
 	var ammountOfCategories = 0;
 	var categoriesTitleHtml = "snippets/category-title-snippet.html";
 	var categoryHtml = "snippets/category-snippet.html";
@@ -41,17 +42,13 @@
 	};
 
 	document.addEventListener("DOMContentLoaded", function(event){
-		showLoading("#main-content");
-		$ajaxUtil.sendGetRequest(
-			homeHtml, function(responseText){
-				insertHtml("#main-content", responseText);
-			}, false);
+		showLoading("#main-content");		
+		projectClass.loadHome();
 		$ajaxUtil.sendGetRequest(
 			homeFooterHtml, function(responseText){
 				insertHtml("#footer-content", responseText);
 			}, false);
-		insertHtml('#brand-name', projectClass.nameOfSite);
-		document.title = projectClass.nameOfSite;
+		insertHtml('#brand-name', projectClass.nameOfSite);		
 	});
 
 	var loadCatalogItems = function(categoryShort){
@@ -83,7 +80,20 @@
 		showLoading("#main-content");
 		$ajaxUtil.sendGetRequest(
 			homeHtml, function(responseText){
-				insertHtml("#main-content", responseText);
+				$ajaxUtil.sendGetRequest(allSlidersUrl,
+				function(sliders){
+					var sliderItemBegin = '<div class="carousel-item ';
+					var sliderItemEnd = '"><img src="images/{{slider_img}}" class="d-block w-100" alt="{{alt}}"></div>';
+					var html = "";
+					for (var i = 0; i < sliders.length; i++) {
+						var temp = sliderItemBegin + (i > 0? '':'active') + sliderItemEnd; 
+						temp = insertProperty(temp, "slider_img", sliders[i].name);
+						html+= insertProperty(temp, "alt", sliders[i].alt);
+						console.log(sliders[i].name);
+					}					
+					insertHtml("#main-content", responseText);
+					insertHtml(".carousel-inner", html);
+				});				
 			}, false);
 		document.title = projectClass.nameOfSite;
 	};
