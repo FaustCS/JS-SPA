@@ -59,11 +59,14 @@
 		if(categoryShort != undefined)
 			$ajaxUtil.sendGetRequest(catalogItemsUrl + categoryShort + ".json",
 					buildAndShowCatalogItemsHTML);
+
 		else {
 			$ajaxUtil.sendGetRequest(allCategoriesUrl,
 					function(categories){
-						$ajaxUtil.sendGetRequest(catalogItemsUrl + categories[getRandom(categories.length)].shortname + ".json",
+						var randNumer = getRandom(categories.length);
+						$ajaxUtil.sendGetRequest(catalogItemsUrl + categories[randNumer].shortname + ".json",
 					buildAndShowCatalogItemsHTML);
+						document.title = categories[randNumer].name;
 					});
 		}
 	}
@@ -71,8 +74,9 @@
 	projectClass.loadCatalogItems = loadCatalogItems;
 
 	var loadCatalogCategories = function(){
-		showLoading("#main-content");		
-		$ajaxUtil.sendGetRequest(allCategoriesUrl, buildAndShowCategoriesHTML);		
+		showLoading("#main-content");
+		document.title = projectClass.nameOfSite + " - Каталог";
+		$ajaxUtil.sendGetRequest(allCategoriesUrl, buildAndShowCategoriesHTML);				
 	};
 
 	projectClass.loadHome = function(){
@@ -81,6 +85,7 @@
 			homeHtml, function(responseText){
 				insertHtml("#main-content", responseText);
 			}, false);
+		document.title = projectClass.nameOfSite;
 	};
 	projectClass.loadCatalogCategories = loadCatalogCategories;	
 	function buildAndShowCategoriesHTML(categories){
@@ -126,6 +131,7 @@
 						insertHtml("#main-content", catalogItemsViewHtml);
 					}, false);			
 		}, false);
+		document.title = projectClass.nameOfSite + " - " + categoryCatalogItems.category.name;
 	};
 
 	function buildCatalogItemsViewHtml(categoryCatalogItems, catalogItemsTitleHtml, catalogItemHtml){

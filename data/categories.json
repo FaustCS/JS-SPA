@@ -3,31 +3,31 @@
     "id": 1,
     "name": "Випічка",
     "shortname": "Bread",
-    "url": "categories/Cat1.json",
+    "url": "categories/Bread.json",
     "special_instruction":"Special instruction is special",
-    "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
+    "notes": "Хлібобулочні і кондитерські вироби"
   },
   {
     "id": 2,
     "name": "М'ясні вироби",
     "shortname": "Meat",
-    "url": "categories/Cat2.json",
+    "url": "categories/Meat.json",
     "special_instruction":null,
-    "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
+    "notes": "М'ясо, субпродукти, м'ясні вироби, напівфабрикати та готові страви"
   },
   {
     "id": 3,
     "name": "Снеки",
     "shortname": "Snacks",
-    "url": "categories/Cat1.json",
+    "url": "categories/Snacks.json",
     "special_instruction":null,
-    "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
+    "notes": ""
   },
   {
     "id": 4,
     "name": "Овочі",
     "shortname": "Vegetables",
-    "url": "categories/Cat4.json",
+    "url": "categories/Vegetables.json",
     "special_instruction":null,
     "notes": "Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Veniam voluptatibus beatae impedit tempora nemo officia esse, accusantium nisi repellat aut libero dolore voluptas enim ullam reprehenderit aliquam rerum magni inventore!"
   }

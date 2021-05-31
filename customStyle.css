@@ -25,3 +25,6 @@ body{
 .color-pallete{
 	height:2.0rem;
 }
+.phone-number:hover{
+	text-decoration: underline!important;
+}
