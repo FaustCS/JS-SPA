@@ -1,73 +1,42 @@
 {"catalog_items":[
 	{
 		"id":1,
-		"shortname":"Г1",
-		"name":"Назва Г-1",
+		"shortname":"cola",
+		"name":"Кола",
 		"description":"Some text for description",
-		"price":33.2,
+		"price":22.0,
 		"ammount_retail":5
 	},
 	{
 		"id":2,
-		"shortname":"Г2",
-		"name":"Назва Г-2",
+		"shortname":"pepsi",
+		"name":"Пепсі",
 		"description":"Some text for description",
-		"price":99.9,
+		"price":22.0,
 		"ammount_retail":3
 	},
 	{
 		"id":3,
-		"shortname":"Г3",
-		"name":"Назва Г-3",
+		"shortname":"crush",
+		"name":"Виноградний краш",
 		"description":"Some text for description",
-		"price":60.5,
+		"price":25.0,
 		"ammount_retail":10
 	},
 	{
 		"id":4,
-		"shortname":"Г4",
-		"name":"Назва Г-4",
+		"shortname":"ale",
+		"name":"Джиджер ель",
 		"description":"Some text for description",
-		"price":22,
+		"price":35.0,
 		"ammount_retail":55
-	},
-	{
-		"id":5,
-		"shortname":"Г5",
-		"name":"Назва Г-5",
-		"description":"Some text for description",
-		"price":40.4,
-		"ammount_retail":null
-	},
-	{
-		"id":6,
-		"shortname":"Г6",
-		"name":"Назва Г-6",
-		"description":"Some text for description",
-		"price":66.6,
-		"ammount_retail":null
-	},
-	{
-		"id":7,
-		"shortname":"Г7",
-		"name":"Назва Г-7",
-		"description":"Some text for description",
-		"price":87.2,
-		"ammount_retail":null
-	},
-	{
-		"id":8,
-		"shortname":"Г8",
-		"name":"Назва Г-8",
-		"description":"Some text for description",
-		"price":42,
-		"ammount_retail":null
 	}
 ],
 	"category":
 	{
-		"shortname":"Г",
-		"name":"Категорія Г",
-		"special_instruction":"-"
+		"shortname":"Напої",
+		"folder":"Soda",
+		"name":"Безалкогольні напої",
+		"special_instruction":"Газовані та негазовані напої довготривалого зберігання"
 	}
 }

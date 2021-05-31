@@ -1,7 +1,7 @@
 {"catalog_items":[
 	{
 		"id":1,
-		"shortname":"В1",
+		"shortname":"B1",
 		"name":"Назва В-1",
 		"description":"Some text for description",
 		"price":33.2,
@@ -38,36 +38,13 @@
 		"description":"Some text for description",
 		"price":40.4,
 		"ammount_retail":null
-	},
-	{
-		"id":6,
-		"shortname":"В6",
-		"name":"Назва В-6",
-		"description":"Some text for description",
-		"price":66.6,
-		"ammount_retail":null
-	},
-	{
-		"id":7,
-		"shortname":"В7",
-		"name":"Назва В-7",
-		"description":"Some text for description",
-		"price":87.2,
-		"ammount_retail":null
-	},
-	{
-		"id":8,
-		"shortname":"В8",
-		"name":"Назва В-8",
-		"description":"Some text for description",
-		"price":42,
-		"ammount_retail":null
 	}
 ],
 	"category":
 	{
-		"shortname":"В",
-		"name":"Категорія В",
-		"special_instruction":"-"
+		"shortname":"Снеки",
+		"folder":"Snack",
+		"name":"Різноманітні закуски",
+		"special_instruction":"Продукти тривалого зберігання"
 	}
 }

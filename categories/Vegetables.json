@@ -38,35 +38,12 @@
 		"description":"Some text for description",
 		"price":40.4,
 		"ammount_retail":null
-	},
-	{
-		"id":6,
-		"shortname":"Г6",
-		"name":"Назва Г-6",
-		"description":"Some text for description",
-		"price":66.6,
-		"ammount_retail":null
-	},
-	{
-		"id":7,
-		"shortname":"Г7",
-		"name":"Назва Г-7",
-		"description":"Some text for description",
-		"price":87.2,
-		"ammount_retail":null
-	},
-	{
-		"id":8,
-		"shortname":"Г8",
-		"name":"Назва Г-8",
-		"description":"Some text for description",
-		"price":42,
-		"ammount_retail":null
 	}
 ],
 	"category":
 	{
 		"shortname":"Г",
+		"folder":"Vegetable",
 		"name":"Категорія Г",
 		"special_instruction":"-"
 	}

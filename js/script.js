@@ -152,12 +152,13 @@
 
 		var catalogItems = categoryCatalogItems.catalog_items;
 		var catalogShortName = categoryCatalogItems.category.catalog_items;
-
+		var folder =  categoryCatalogItems.category.folder;
 		for(var i = 0; i < catalogItems.length; i ++){
 			var html = catalogItemHtml;
-			html = insertProperty(html, "short_name", catalogItems[i].shortname);
+			//html = insertProperty(html, "short_name", catalogItems[i].shortname);
 			////html = insertProperty(html, "short_name", catalogItems[i].category.shortname);
 			html = insertProperty(html, "price", catalogItems[i].price);
+			html = insertProperty(html, "item", folder + "/" + catalogItems[i].shortname);
 			html = insertProperty(html, "ammount_retail", (catalogItems[i].ammount_retail == null)? 0 : catalogItems[i].ammount_retail);
 			html = insertProperty(html, "name", catalogItems[i].name);
 			html = insertProperty(html, "description", catalogItems[i].description);

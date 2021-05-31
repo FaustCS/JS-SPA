@@ -1,81 +1,42 @@
 {"catalog_items":[
 	{
 		"id":1,
-		"shortname":"A1",
-		"name":"Назва A-1",
+		"shortname":"bread",
+		"name":"Хліб",
 		"description":"Some text for description",
-		"price":33.2,
+		"price":22.0,
 		"ammount_retail":5
 	},
 	{
 		"id":2,
-		"shortname":"A2",
-		"name":"Назва A-2",
+		"shortname":"brownbread",
+		"name":"Жиній хліб",
 		"description":"Some text for description",
-		"price":99.9,
+		"price":24.0,
 		"ammount_retail":3
 	},
 	{
 		"id":3,
-		"shortname":"A3",
-		"name":"Назва A-3",
+		"shortname":"bun",
+		"name":"Булка",
 		"description":"Some text for description",
-		"price":60.5,
+		"price":10.5,
 		"ammount_retail":10
 	},
 	{
 		"id":4,
-		"shortname":"A4",
-		"name":"Назва A-4",
+		"shortname":"rings",
+		"name":"Бублики",
 		"description":"Some text for description",
-		"price":22,
+		"price":40.0,
 		"ammount_retail":55
-	},
-	{
-		"id":5,
-		"shortname":"A5",
-		"name":"Назва A-5",
-		"description":"Some text for description",
-		"price":40.4,
-		"ammount_retail":null
-	},
-	{
-		"id":6,
-		"shortname":"A6",
-		"name":"Назва A-6",
-		"description":"Some text for description",
-		"price":66.6,
-		"ammount_retail":null
-	},
-	{
-		"id":7,
-		"shortname":"A7",
-		"name":"Назва A-7",
-		"description":"Some text for description",
-		"price":87.2,
-		"ammount_retail":null
-	},
-	{
-		"id":8,
-		"shortname":"A8",
-		"name":"Назва A-8",
-		"description":"Some text for description",
-		"price":42,
-		"ammount_retail":null
-	},
-	{
-		"id":9,
-		"shortname":"A9",
-		"name":"Назва A-9",
-		"description":"Some text for description",
-		"price":55.2,
-		"ammount_retail":null
 	}
 ],
 	"category":
 	{
-		"shortname":"A",
-		"name":"Категорія А",
-		"special_instruction":"Special instruction is special"
+		"shortname":"Випічка",
+		"folder":"Bread",
+		"name":"Хлібобулочні вироби",
+		"special_instruction":"Продукція з коротким строком придатності"
 	}
 }
