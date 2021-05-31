@@ -1,42 +1,41 @@
-{"catalog_items":[
-	{
-		"id":1,
-		"shortname":"cola",
-		"name":"Кола",
-		"description":"Some text for description",
-		"price":22.0,
-		"ammount_retail":5
-	},
-	{
-		"id":2,
-		"shortname":"pepsi",
-		"name":"Пепсі",
-		"description":"Some text for description",
-		"price":22.0,
-		"ammount_retail":3
-	},
-	{
-		"id":3,
-		"shortname":"crush",
-		"name":"Виноградний краш",
-		"description":"Some text for description",
-		"price":25.0,
-		"ammount_retail":10
-	},
-	{
-		"id":4,
-		"shortname":"ale",
-		"name":"Джиджер ель",
-		"description":"Some text for description",
-		"price":35.0,
-		"ammount_retail":55
-	}
-],
-	"category":
-	{
-		"shortname":"Напої",
-		"folder":"Soda",
-		"name":"Безалкогольні напої",
-		"special_instruction":"Газовані та негазовані напої довготривалого зберігання"
-	}
+{
+    "catalog_items": [{
+            "id": 1,
+            "shortname": "cola",
+            "name": "Кола",
+            "description": "Газований безалкогольний прохолоджувальний напій",
+            "price": 22.0,
+            "ammount_retail": 5
+        },
+        {
+            "id": 2,
+            "shortname": "pepsi",
+            "name": "Пепсі",
+            "description": "Газований безалкогольний прохолоджувальний напій",
+            "price": 22.0,
+            "ammount_retail": 3
+        },
+        {
+            "id": 3,
+            "shortname": "crush",
+            "name": "Виноградний краш",
+            "description": "Виноградний содовий напій",
+            "price": 25.0,
+            "ammount_retail": 10
+        },
+        {
+            "id": 4,
+            "shortname": "ale",
+            "name": "Джинджер ель",
+            "description": "Газований безалкогольний напій, ароматизований імбиром",
+            "price": 35.0,
+            "ammount_retail": 55
+        }
+    ],
+    "category": {
+        "shortname": "Напої",
+        "folder": "Soda",
+        "name": "Безалкогольні напої",
+        "special_instruction": "Газовані та негазовані напої довготривалого зберігання"
+    }
 }

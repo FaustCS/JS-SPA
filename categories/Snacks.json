@@ -3,7 +3,7 @@
             "id": 1,
             "shortname": "chips",
             "name": "Хрустка картопля",
-            "description": "Some text for description",
+            "description": "Шматочки картоплі, обсмажені у великій кількості розпеченої олії",
             "price": 32,
             "ammount_retail": 5
         },
@@ -11,7 +11,7 @@
             "id": 2,
             "shortname": "cracker",
             "name": "Крекери",
-            "description": "Some text for description",
+            "description": "Сухе печиво, що готується із пшеничного борошна й жиру, на дріжджах",
             "price": 18,
             "ammount_retail": 3
         },
@@ -19,7 +19,7 @@
             "id": 3,
             "shortname": "driedbread",
             "name": "Грінки",
-            "description": "Some text for description",
+            "description": "Підсмажений на олії хліб",
             "price": 14.6,
             "ammount_retail": 10
         },
@@ -27,7 +27,7 @@
             "id": 4,
             "shortname": "popcorn",
             "name": "Попкорн солений",
-            "description": "Some text for description",
+            "description": "Кукурудзяні зерна, що під час смаження розриваються зсередини",
             "price": 18.5,
             "ammount_retail": 55
         }
