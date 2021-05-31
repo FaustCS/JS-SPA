@@ -30,14 +30,6 @@
 		"description":"Some text for description",
 		"price":22,
 		"ammount_retail":55
-	},
-	{
-		"id":5,
-		"shortname":"В5",
-		"name":"Назва В-5",
-		"description":"Some text for description",
-		"price":40.4,
-		"ammount_retail":null
 	}
 ],
 	"category":
