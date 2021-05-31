@@ -25,19 +25,19 @@
   },
   {
     "id": 4,
-    "name": "Овочі",
+    "name": "Овочі та фрукти",
     "shortname": "Vegetables",
     "url": "categories/Vegetables.json",
     "special_instruction":null,
-    "notes": ""
+    "notes": "Необроблені продукти рослинного походження"
   },
   {
     "id": 5,
-    "name": "",
-    "shortname": "Vegetables",
-    "url": "categories/Vegetables.json",
+    "name": "Напої",
+    "shortname": "Soda",
+    "url": "categories/Soda.json",
     "special_instruction":null,
-    "notes": ""
+    "notes": "Безалкогольні газовані та негазовані напої"
   }
 
 ]
