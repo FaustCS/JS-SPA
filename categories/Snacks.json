@@ -1,42 +1,41 @@
-{"catalog_items":[
-	{
-		"id":1,
-		"shortname":"B1",
-		"name":"Назва В-1",
-		"description":"Some text for description",
-		"price":33.2,
-		"ammount_retail":5
-	},
-	{
-		"id":2,
-		"shortname":"В2",
-		"name":"Назва В-2",
-		"description":"Some text for description",
-		"price":99.9,
-		"ammount_retail":3
-	},
-	{
-		"id":3,
-		"shortname":"В3",
-		"name":"Назва В-3",
-		"description":"Some text for description",
-		"price":60.5,
-		"ammount_retail":10
-	},
-	{
-		"id":4,
-		"shortname":"В4",
-		"name":"Назва В-4",
-		"description":"Some text for description",
-		"price":22,
-		"ammount_retail":55
-	}
-],
-	"category":
-	{
-		"shortname":"Снеки",
-		"folder":"Snack",
-		"name":"Різноманітні закуски",
-		"special_instruction":"Продукти тривалого зберігання"
-	}
+{
+    "catalog_items": [{
+            "id": 1,
+            "shortname": "chips",
+            "name": "Хрустка картопля",
+            "description": "Some text for description",
+            "price": 33.2,
+            "ammount_retail": 5
+        },
+        {
+            "id": 2,
+            "shortname": "cracker",
+            "name": "Крекери",
+            "description": "Some text for description",
+            "price": 99.9,
+            "ammount_retail": 3
+        },
+        {
+            "id": 3,
+            "shortname": "driedbread",
+            "name": "Грінки",
+            "description": "Some text for description",
+            "price": 60.5,
+            "ammount_retail": 10
+        },
+        {
+            "id": 4,
+            "shortname": "popcorn",
+            "name": "Попкорн солений",
+            "description": "Some text for description",
+            "price": 22,
+            "ammount_retail": 55
+        }
+    ],
+    "category": {
+        "shortname": "Снеки",
+        "folder": "Snack",
+        "name": "Різноманітні закуски",
+        "special_instruction": "Продукти тривалого зберігання"
+    }
 }
